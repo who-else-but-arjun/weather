@@ -1,0 +1,180 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, #4a90e2, #9013fe);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.focus\:outline-none {
+  outline: none;
+}
+
+.focus\:ring-2 {
+  box-shadow: 0 0 0 2px #9b59b6;
+}
+
+.transition {
+  transition: all 0.2s ease-in-out;
+}
+
+.transform {
+  transform: scale(1);
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
+
+.bg-opacity-20 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-red-500 {
+  color: #f56565;
+}
+
+.text-5xl {
+  font-size: 3rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.weather-dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.weather-card:hover {
+  transform: scale(1.05);
+}
+
+.animated-card {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.search-input-container input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 0.5rem;
+}
+
+.search-input-container i {
+  color: #999;
+  margin-right: 0.5rem;
+}
