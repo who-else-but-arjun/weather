@@ -1,3 +1,19 @@
+# Weather App
+
+## Overview
+This Weather App is a responsive web application built using React and Tailwind CSS. It provides current weather information, temperature summary, and precipitation details for a specified city. The app fetches data from the AccuWeather API and displays it in an intuitive and visually appealing manner.
+
+## Features
+- **Current Weather:** Displays the current temperature, feels-like temperature, humidity, UV index, and weather icon.
+- **Temperature Summary:** Provides a summary of temperature trends.
+- **Precipitation Summary:** Displays precipitation details.
+- **Responsive Design:** The app is optimized for both desktop and mobile screens, ensuring a seamless user experience across devices.
+
+## Technologies Used
+- **React:** A JavaScript library for building user interfaces.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- **AccuWeather API:** A third-party API for fetching weather data.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
