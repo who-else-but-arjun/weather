@@ -13,7 +13,7 @@ const App = () => {
     setError('');
     setWeather(null); 
     try {
-      const locationResponse = await axios.get(`http://dataservice.accuweather.com/locations/v1/cities/search`, {
+      const locationResponse = await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search`, {
         params: {
           apikey: '7b52VjJNR7MZo0R40h2857SxI4Awfdyc',
           q: city
@@ -28,7 +28,7 @@ const App = () => {
       const locationKey = locationResponse.data[0].Key;
       const cityName = locationResponse.data[0].LocalizedName;
       
-      const weatherResponse = await axios.get(`http://dataservice.accuweather.com/currentconditions/v1/${locationKey}`, {
+      const weatherResponse = await axios.get(`https://dataservice.accuweather.com/currentconditions/v1/${locationKey}`, {
         params: {
           apikey: '7b52VjJNR7MZo0R40h2857SxI4Awfdyc',
           details: true
